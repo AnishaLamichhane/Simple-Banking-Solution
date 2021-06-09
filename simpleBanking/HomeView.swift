@@ -14,8 +14,9 @@ struct HomeView: View {
         GeometryReader { geo in
             ScrollView {
                 VStack {
-//                    Text("Simple Banking Solution")
-//                        .font(.title)
+                   Text("Simple Banking Solution")
+                    .font(.title2)
+                    .padding()
                     Image("bank")
                         .resizable()
                         .scaledToFit()
@@ -25,6 +26,13 @@ struct HomeView: View {
                     Button("Add Transaction") {
                         self.showingAddTransaction.toggle()
                     }
+                    .clipShape(Capsule())
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.accentColor)
+                    .cornerRadius(8)
+                    .padding(.top)
+                    
                 }
             }
         }

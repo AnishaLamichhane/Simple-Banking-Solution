@@ -28,6 +28,7 @@ struct TransactionView: View {
                         
                         Spacer()
                         Text("$\(bank.amount)")
+                            .foregroundColor(.green)
                     }
                 }
                 .onDelete(perform: deleteTransaction)
