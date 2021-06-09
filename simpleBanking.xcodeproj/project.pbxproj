@@ -14,6 +14,10 @@
 		AF9B1F4E267082A300102742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9B1F4D267082A300102742 /* Assets.xcassets */; };
 		AF9B1F51267082A300102742 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9B1F50267082A300102742 /* Preview Assets.xcassets */; };
 		AF9B1F54267082A300102742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9B1F52267082A300102742 /* LaunchScreen.storyboard */; };
+		AF9B1F5C267086AE00102742 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1F5B267086AE00102742 /* HomeView.swift */; };
+		AF9B1F5E267086C700102742 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1F5D267086C700102742 /* UserView.swift */; };
+		AF9B1F60267086F400102742 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1F5F267086F400102742 /* TransactionView.swift */; };
+		AF9B1F62267087FB00102742 /* AddTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B1F61267087FB00102742 /* AddTransaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		AF9B1F50267082A300102742 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF9B1F53267082A300102742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF9B1F55267082A300102742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9B1F5B267086AE00102742 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF9B1F5D267086C700102742 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		AF9B1F5F267086F400102742 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		AF9B1F61267087FB00102742 /* AddTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				AF9B1F48267082A100102742 /* ContentView.swift */,
 				AF9B1F4D267082A300102742 /* Assets.xcassets */,
 				AF9B1F52267082A300102742 /* LaunchScreen.storyboard */,
+				AF9B1F5B267086AE00102742 /* HomeView.swift */,
+				AF9B1F5D267086C700102742 /* UserView.swift */,
+				AF9B1F5F267086F400102742 /* TransactionView.swift */,
+				AF9B1F61267087FB00102742 /* AddTransaction.swift */,
 				AF9B1F55267082A300102742 /* Info.plist */,
 				AF9B1F4A267082A100102742 /* simpleBanking.xcdatamodeld */,
 				AF9B1F4F267082A300102742 /* Preview Content */,
@@ -149,8 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF9B1F45267082A100102742 /* AppDelegate.swift in Sources */,
+				AF9B1F5E267086C700102742 /* UserView.swift in Sources */,
 				AF9B1F47267082A100102742 /* SceneDelegate.swift in Sources */,
 				AF9B1F4C267082A100102742 /* simpleBanking.xcdatamodeld in Sources */,
+				AF9B1F5C267086AE00102742 /* HomeView.swift in Sources */,
+				AF9B1F60267086F400102742 /* TransactionView.swift in Sources */,
+				AF9B1F62267087FB00102742 /* AddTransaction.swift in Sources */,
 				AF9B1F49267082A100102742 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
