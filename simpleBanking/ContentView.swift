@@ -28,6 +28,7 @@ struct ContentView: View {
                 }
         }
         .accentColor(.green)
+        .navigationBarTitle("Simple Banking Solution", displayMode: .inline)
         
     }
     

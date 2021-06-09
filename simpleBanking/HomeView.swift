@@ -8,8 +8,31 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var showingAddTransaction = false
+    
     var body: some View {
-       Text("Home")
+        GeometryReader { geo in
+            ScrollView {
+                VStack {
+//                    Text("Simple Banking Solution")
+//                        .font(.title)
+                    Image("bank")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: geo.size.width)
+                        .padding(.bottom)
+                    
+                    Button("Add Transaction") {
+                        self.showingAddTransaction.toggle()
+                    }
+                }
+            }
+        }
+        .navigationBarTitle("Home", displayMode: .inline)
+        .sheet(isPresented: $showingAddTransaction) {
+//         here we need to write values in the environment
+          AddTransaction()
+        }
     }
 }
 
